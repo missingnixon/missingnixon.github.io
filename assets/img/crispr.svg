@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Illustration of a DNA double helix being edited">
+  <rect width="800" height="500" fill="#f7f7f5"/>
+  <g stroke="#e6e6e2" stroke-width="1">
+    <path d="M0 125h800M0 250h800M0 375h800M200 0v500M400 0v500M600 0v500"/>
+  </g>
+  <g fill="none" stroke="#121212" stroke-width="3" stroke-linecap="round">
+    <path d="M120 140c80 0 80 110 160 110s80-110 160-110 80 110 160 110"/>
+    <path d="M120 360c80 0 80-110 160-110s80 110 160 110 80-110 160-110"/>
+    <path d="M160 152v196M240 238v24M320 152v196M400 238v24M480 152v196M560 238v24M640 152v196" stroke-width="2"/>
+  </g>
+  <g stroke="#9b1b30" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M370 210l60 80M430 210l-60 80"/>
+    <path d="M356 250h-30M444 250h30" stroke-dasharray="4 6"/>
+  </g>
+  <circle cx="400" cy="250" r="6" fill="#9b1b30"/>
+</svg>

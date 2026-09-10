@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Illustration of data streams and a vital-signs monitor">
+  <rect width="800" height="500" fill="#f7f7f5"/>
+  <g stroke="#e6e6e2" stroke-width="1">
+    <path d="M0 125h800M0 250h800M0 375h800M200 0v500M400 0v500M600 0v500"/>
+  </g>
+  <g fill="none" stroke="#121212" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="180" y="120" width="440" height="260" rx="8"/>
+    <path d="M220 300h60l16-40 22 80 24-100 26 120 20-70 14 10h60"/>
+    <path d="M462 300h118" stroke="#9b1b30"/>
+  </g>
+  <g stroke="#121212" stroke-width="2" opacity="0.55" stroke-linecap="round">
+    <path d="M220 170h120M220 200h90M220 230h140"/>
+    <path d="M500 170h80M500 200h60M500 230h90"/>
+  </g>
+  <g fill="#9b1b30">
+    <circle cx="560" cy="150" r="5"/>
+    <circle cx="580" cy="150" r="5" opacity="0.5"/>
+    <circle cx="600" cy="150" r="5" opacity="0.25"/>
+  </g>
+</svg>

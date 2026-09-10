@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research Archive — Medical Research Society</title>
+  <meta name="description" content="Browse all research papers, literature reviews, and studies published by the Medical Research Society.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,800;0,900;1,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Libre+Franklin:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container">
+      <span id="today-date">Today's Paper</span>
+      <span class="edition">Student-Led &middot; Est. 2021</span>
+      <a href="about.html#submit">Submit Research &rarr;</a>
+    </div>
+  </div>
+
+  <header class="masthead">
+    <div class="container">
+      <div class="masthead-title"><a href="index.html">Medical Research Society</a></div>
+      <div class="masthead-tagline">Advancing Young Minds in Medicine</div>
+    </div>
+  </header>
+
+  <nav class="mainnav" aria-label="Main navigation">
+    <div class="container">
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Sections</button>
+      <div class="nav-links" id="nav-links">
+        <a class="navlink" href="index.html">Home</a>
+        <a class="navlink" href="research.html">Research</a>
+        <a class="navlink" href="about.html">About</a>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+
+    <div class="page-intro" style="margin-top: 36px;">
+      <h1>Research Archive</h1>
+      <p class="deck">Every paper published by our members — original studies, literature reviews, and survey research, each vetted by our student editorial board.</p>
+      <div class="rule-ornament"></div>
+    </div>
+
+    <div class="archive-controls">
+      <div class="filter-group" role="group" aria-label="Filter by field">
+        <button class="filter-btn active" data-field="all">All</button>
+        <button class="filter-btn" data-field="neuroscience">Neuroscience</button>
+        <button class="filter-btn" data-field="genetics">Genetics</button>
+        <button class="filter-btn" data-field="public-health">Public Health</button>
+        <button class="filter-btn" data-field="cardiology">Cardiology</button>
+        <button class="filter-btn" data-field="infectious-disease">Infectious Disease</button>
+        <button class="filter-btn" data-field="psychiatry">Psychiatry</button>
+        <button class="filter-btn" data-field="computational">Computational</button>
+      </div>
+      <div class="archive-search">
+        <input type="search" id="archive-search" placeholder="Search titles, authors, topics..." aria-label="Search papers">
+      </div>
+    </div>
+
+    <p class="archive-count" id="archive-count"></p>
+
+    <section class="archive-grid" id="archive-grid">
+
+      <article class="story" data-field="neuroscience">
+        <a href="article.html" class="figure" aria-hidden="true" tabindex="-1">
+          <img src="assets/img/feature-sleep.svg" alt="Illustration of a crescent moon over brain activity waves">
+        </a>
+        <span class="kicker">Original Research &middot; Neuroscience</span>
+        <h3><a href="article.html">Sleep Deprivation and Academic Performance Among High School Students: A Cross-Sectional Analysis</a></h3>
+        <p class="summary">A survey of 412 students linking short sleep duration with lower GPA and greater daytime fatigue.</p>
+        <p class="byline">By <strong>Ava Chen</strong> &middot; Vol. 5, 2026</p>
+      </article>
+
+      <article class="story" data-field="genetics">
+        <a href="article.html" class="figure" aria-hidden="true" tabindex="-1">
+          <img src="assets/img/crispr.svg" alt="Illustration of a DNA double helix being edited">
+        </a>
+        <span class="kicker">Literature Review &middot; Genetics</span>
+        <h3><a href="article.html">CRISPR-Cas9 and the Future of Sickle Cell Disease Treatment</a></h3>
+        <p class="summary">A review of gene-editing trials, their outcomes, and the ethical questions they raise.</p>
+        <p class="byline">By <strong>Marcus Okafor</strong> &middot; Vol. 5, 2026</p>
+      </article>
+
+      <article class="story" data-field="public-health">
+        <a href="article.html" class="figure" aria-hidden="true" tabindex="-1">
+          <img src="assets/img/lungs.svg" alt="Illustration of lungs with airways">
+        </a>
+        <span class="kicker">Survey Study &middot; Public Health</span>
+        <h3><a href="article.html">Respiratory Symptoms Associated With E-Cigarette Use in Adolescents</a></h3>
+        <p class="summary">Self-reported wheeze and shortness of breath were twice as common among current vapers.</p>
+        <p class="byline">By <strong>Priya Raman</strong> and <strong>Leo Martinez</strong> &middot; Vol. 5, 2026</p>
+      </article>
+
+      <article class="story" data-field="cardiology">
+        <a href="article.html" class="figure" aria-hidden="true" tabindex="-1">
+          <img src="assets/img/heart-music.svg" alt="Illustration of an electrocardiogram trace with a musical note">
+        </a>
+        <span class="kicker">Pilot Study &middot; Cardiology</span>
+        <h3><a href="article.html">Music Listening, Perceived Stress, and Heart Rate Variability in Students</a></h3>
+        <p class="summary">A 30-minute listening session was associated with modest improvements in stress scores.</p>
+        <p class="byline">By <strong>Sofia Delgado</strong> &middot; Vol. 5, 2026</p>
+      </article>
+
+      <article class="story" data-field="infectious-disease">
+        <a href="article.html" class="figure" aria-hidden="true" tabindex="-1">
+          <img src="assets/img/petri.svg" alt="Illustration of a petri dish with bacterial colonies">
+        </a>
+        <span class="kicker">Systematic Review &middot; Infectious Disease</span>
+        <h3><a href="article.html">Antibiotic Resistance in Common Pathogens: Trends From 2015&ndash;2025</a></h3>
+        <p class="summary">We synthesized 43 surveillance studies to map rising resistance in E. coli and S. aureus.</p>
+        <p class="byline">By <strong>Daniel Kim</strong> &middot; Vol. 4, 2025</p>
+      </article>
+
+      <article class="story" data-field="psychiatry">
+        <a href="article.html" class="figure" aria-hidden="true" tabindex="-1">
+          <img src="assets/img/mind.svg" alt="Illustration of a head profile with branching thoughts">
+        </a>
+        <span class="kicker">Survey Study &middot; Psychiatry</span>
+        <h3><a href="article.html">Stigma Around Mental Health Disclosure Among High School Students</a></h3>
+        <p class="summary">Nearly half of respondents said they would hesitate to tell a friend they were struggling.</p>
+        <p class="byline">By <strong>Emma Walsh</strong> and <strong>Noah Brooks</strong> &middot; Vol. 4, 2025</p>
+      </article>
+
+      <article class="story" data-field="neuroscience">
+        <a href="article.html" class="figure" aria-hidden="true" tabindex="-1">
+          <img src="assets/img/heart-music.svg" alt="Illustration of an electrocardiogram trace">
+        </a>
+        <span class="kicker">Original Research &middot; Neuroscience</span>
+        <h3><a href="article.html">Caffeine Consumption and Reaction Time in Student Athletes</a></h3>
+        <p class="summary">Moderate caffeine intake correlated with faster reaction times, with diminishing returns above 200 mg.</p>
+        <p class="byline">By <strong>Jordan Ellis</strong> &middot; Vol. 4, 2025</p>
+      </article>
+
+      <article class="story" data-field="public-health">
+        <a href="article.html" class="figure" aria-hidden="true" tabindex="-1">
+          <img src="assets/img/telehealth.svg" alt="Illustration of a phone with a medical cross">
+        </a>
+        <span class="kicker">Review &middot; Public Health</span>
+        <h3><a href="article.html">Telehealth Access and Adolescent Preventive Care: Barriers and Opportunities</a></h3>
+        <p class="summary">Virtual visits expand access for teens, but privacy concerns and the digital divide remain.</p>
+        <p class="byline">By <strong>Grace Liu</strong> &middot; Vol. 4, 2025</p>
+      </article>
+
+      <article class="story" data-field="computational">
+        <a href="article.html" class="figure" aria-hidden="true" tabindex="-1">
+          <img src="assets/img/data-monitor.svg" alt="Illustration of a vital-signs monitor with data streams">
+        </a>
+        <span class="kicker">Review &middot; Computational Medicine</span>
+        <h3><a href="article.html">Machine Learning for Early Sepsis Detection: What the Evidence Shows</a></h3>
+        <p class="summary">Predictive models flag sepsis hours earlier on average — but real-world uptake lags behind.</p>
+        <p class="byline">By <strong>Lucas Tran</strong> &middot; Vol. 4, 2025</p>
+      </article>
+
+      <article class="story" data-field="public-health">
+        <a href="article.html" class="figure" aria-hidden="true" tabindex="-1">
+          <img src="assets/img/nutrition.svg" alt="Illustration of an apple beside a nutrition label">
+        </a>
+        <span class="kicker">Survey Study &middot; Public Health</span>
+        <h3><a href="article.html">Nutritional Label Literacy and Dietary Choices Among Teenagers</a></h3>
+        <p class="summary">Students who could interpret labels correctly made measurably better snack choices in a mock task.</p>
+        <p class="byline">By <strong>Maya Patel</strong> &middot; Vol. 3, 2024</p>
+      </article>
+
+      <article class="story" data-field="genetics">
+        <a href="article.html" class="figure" aria-hidden="true" tabindex="-1">
+          <img src="assets/img/microscope.svg" alt="Illustration of a microscope">
+        </a>
+        <span class="kicker">Literature Review &middot; Genetics</span>
+        <h3><a href="article.html">Epigenetics and Environment: How Experience Shapes Gene Expression</a></h3>
+        <p class="summary">An introduction to methylation, histone modification, and the evidence linking stress to heritable change.</p>
+        <p class="byline">By <strong>Sam Rivera</strong> &middot; Vol. 3, 2024</p>
+      </article>
+
+      <article class="story" data-field="cardiology">
+        <a href="article.html" class="figure" aria-hidden="true" tabindex="-1">
+          <img src="assets/img/data-monitor.svg" alt="Illustration of a vital-signs monitor">
+        </a>
+        <span class="kicker">Original Research &middot; Cardiology</span>
+        <h3><a href="article.html">Resting Heart Rate and Screen Time: Findings From a Wearable-Based Study</a></h3>
+        <p class="summary">Higher daily screen time was weakly associated with elevated resting heart rate in 87 teen volunteers.</p>
+        <p class="byline">By <strong>Owen Park</strong> &middot; Vol. 3, 2024</p>
+      </article>
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo">Medical Research Society</div>
+        <p>A student-led organization dedicated to conducting, reviewing, and publishing medical research at the high school level.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Sections</h4>
+        <ul>
+          <li><a href="research.html?field=neuroscience">Neuroscience</a></li>
+          <li><a href="research.html?field=genetics">Genetics</a></li>
+          <li><a href="research.html?field=public-health">Public Health</a></li>
+          <li><a href="research.html?field=cardiology">Cardiology</a></li>
+          <li><a href="research.html">All Research</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>The Society</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="about.html#officers">Leadership</a></li>
+          <li><a href="about.html#submit">Submit a Paper</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="about.html#submit">Author Guidelines</a></li>
+          <li><a href="about.html#ethics">Research Ethics</a></li>
+          <li><a href="about.html">Faculty Advisors</a></li>
+          <li><a href="about.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-legal">
+      &copy; 2026 Medical Research Society &middot; A student organization. Content is for educational purposes and is not medical advice.
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

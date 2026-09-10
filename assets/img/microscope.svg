@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Illustration of a microscope">
+  <rect width="800" height="500" fill="#f7f7f5"/>
+  <g stroke="#e6e6e2" stroke-width="1">
+    <path d="M0 125h800M0 250h800M0 375h800M200 0v500M400 0v500M600 0v500"/>
+  </g>
+  <g fill="none" stroke="#121212" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M360 90l60 30-90 180-60-30z"/>
+    <path d="M330 270l-16 32M270 240l-16 32"/>
+    <path d="M420 120l30-60M300 300l-30 60"/>
+    <path d="M240 380h220"/>
+    <path d="M470 380c40-10 60-40 54-78-6-36-36-58-74-56"/>
+    <path d="M300 360h140" stroke-width="2" opacity="0.6"/>
+  </g>
+  <g fill="none" stroke="#9b1b30" stroke-width="2.5" stroke-linecap="round">
+    <circle cx="580" cy="160" r="26"/>
+    <circle cx="580" cy="160" r="10" opacity="0.8"/>
+    <circle cx="640" cy="210" r="8"/>
+    <circle cx="540" cy="230" r="5"/>
+  </g>
+</svg>

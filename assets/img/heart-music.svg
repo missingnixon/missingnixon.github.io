@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Illustration of an electrocardiogram trace with a musical note">
+  <rect width="800" height="500" fill="#f7f7f5"/>
+  <g stroke="#e6e6e2" stroke-width="1">
+    <path d="M0 125h800M0 250h800M0 375h800M200 0v500M400 0v500M600 0v500"/>
+  </g>
+  <g fill="none" stroke="#121212" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M80 300h90l20-30 24 60 26-110 30 130 24-80 16 30h90"/>
+    <path d="M400 300h80l18-26 22 52 24-96 28 116 22-70 14 24h112" stroke="#9b1b30"/>
+  </g>
+  <g fill="none" stroke="#121212" stroke-width="3" stroke-linecap="round">
+    <circle cx="560" cy="150" r="16"/>
+    <path d="M576 150V70l40-10v70"/>
+    <circle cx="600" cy="130" r="16"/>
+  </g>
+  <g stroke="#121212" stroke-width="2" opacity="0.5" stroke-linecap="round">
+    <path d="M180 140c20-24 52-24 72 0M200 160c14-16 38-16 52 0"/>
+  </g>
+</svg>

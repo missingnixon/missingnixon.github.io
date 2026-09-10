@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Illustration of a crescent moon over brain activity waves">
+  <rect width="800" height="500" fill="#f7f7f5"/>
+  <g stroke="#e6e6e2" stroke-width="1">
+    <path d="M0 125h800M0 250h800M0 375h800M200 0v500M400 0v500M600 0v500"/>
+  </g>
+  <g fill="none" stroke="#121212" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M470 90a110 110 0 1 0 60 200 130 130 0 0 1-60-200z"/>
+    <circle cx="560" cy="120" r="3" fill="#121212"/>
+    <circle cx="620" cy="180" r="2.5" fill="#121212"/>
+    <circle cx="590" cy="80" r="2" fill="#121212"/>
+    <path d="M120 380h60l18-46 26 92 24-70 16 24h70"/>
+    <path d="M334 380h40l16-38 22 76 20-58 14 20h60" stroke="#9b1b30"/>
+    <path d="M506 380h174"/>
+  </g>
+  <g fill="none" stroke="#121212" stroke-width="2" opacity="0.55">
+    <path d="M150 170c30-40 90-40 120 0M170 190c22-28 66-28 88 0"/>
+  </g>
+</svg>

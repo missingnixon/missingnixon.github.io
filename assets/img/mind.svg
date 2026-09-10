@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Illustration of a head profile with branching thoughts">
+  <rect width="800" height="500" fill="#f7f7f5"/>
+  <g stroke="#e6e6e2" stroke-width="1">
+    <path d="M0 125h800M0 250h800M0 375h800M200 0v500M400 0v500M600 0v500"/>
+  </g>
+  <g fill="none" stroke="#121212" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M330 420c-10-60-40-80-50-130-12-64 20-140 96-158 80-18 150 26 160 96 6 44-10 70 6 104 8 16-6 26-24 26l-20 0c-14 0-20 10-18 24l4 38"/>
+    <path d="M380 200c-20 10-30 34-22 56M420 180c30-6 58 12 64 40"/>
+  </g>
+  <g fill="none" stroke="#9b1b30" stroke-width="2.5" stroke-linecap="round">
+    <path d="M470 150c10-24 40-34 62-22M500 110c6-16 26-24 42-18" opacity="0.9"/>
+    <circle cx="560" cy="80" r="4" fill="#9b1b30" stroke="none"/>
+    <circle cx="590" cy="120" r="3" fill="#9b1b30" stroke="none"/>
+  </g>
+  <g stroke="#121212" stroke-width="2" opacity="0.5" stroke-linecap="round">
+    <path d="M180 160h60M160 200h100M190 240h50"/>
+  </g>
+</svg>

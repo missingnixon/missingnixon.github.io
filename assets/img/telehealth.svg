@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Illustration of a phone with a medical cross">
+  <rect width="800" height="500" fill="#f7f7f5"/>
+  <g stroke="#e6e6e2" stroke-width="1">
+    <path d="M0 125h800M0 250h800M0 375h800M200 0v500M400 0v500M600 0v500"/>
+  </g>
+  <g fill="none" stroke="#121212" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="310" y="80" width="180" height="340" rx="24"/>
+    <path d="M370 104h60"/>
+    <path d="M400 200v80M360 240h80" stroke="#9b1b30"/>
+    <path d="M340 330h120M340 360h80" stroke-width="2" opacity="0.6"/>
+  </g>
+  <g fill="none" stroke="#121212" stroke-width="2.5" stroke-linecap="round" opacity="0.7">
+    <path d="M560 180c30 0 50 20 50 46M560 140c52 0 88 36 88 86"/>
+    <path d="M240 320c-30 0-50-20-50-46M240 360c-52 0-88-36-88-86"/>
+  </g>
+</svg>

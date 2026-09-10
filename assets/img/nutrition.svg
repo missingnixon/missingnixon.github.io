@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Illustration of an apple beside a nutrition label">
+  <rect width="800" height="500" fill="#f7f7f5"/>
+  <g stroke="#e6e6e2" stroke-width="1">
+    <path d="M0 125h800M0 250h800M0 375h800M200 0v500M400 0v500M600 0v500"/>
+  </g>
+  <g fill="none" stroke="#121212" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M280 200c-50 0-90 40-90 100 0 70 50 130 90 130 20 0 30-10 50-10s30 10 50 10c40 0 90-60 90-130 0-60-40-100-90-100-25 0-35 12-50 12s-25-12-50-12z"/>
+    <path d="M330 200c0-30 20-56 50-60 4 30-16 56-50 60z"/>
+    <path d="M330 200c-6-24 4-48 24-58" stroke-width="2.5"/>
+  </g>
+  <g fill="none" stroke="#121212" stroke-width="2.5">
+    <rect x="520" y="120" width="170" height="260" rx="4"/>
+    <path d="M520 160h170M520 200h170M520 240h170M520 280h170M520 320h170" stroke-width="1.5" opacity="0.7"/>
+  </g>
+  <g stroke="#9b1b30" stroke-width="3" stroke-linecap="round">
+    <path d="M545 145h70M545 185h100M545 225h60M545 265h90M545 305h50" opacity="0.9"/>
+  </g>
+</svg>

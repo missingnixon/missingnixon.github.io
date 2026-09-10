@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Illustration of lungs with airways">
+  <rect width="800" height="500" fill="#f7f7f5"/>
+  <g stroke="#e6e6e2" stroke-width="1">
+    <path d="M0 125h800M0 250h800M0 375h800M200 0v500M400 0v500M600 0v500"/>
+  </g>
+  <g fill="none" stroke="#121212" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M400 80v90"/>
+    <path d="M400 170c-10 30-40 44-70 60M400 170c10 30 40 44 70 60"/>
+    <path d="M330 230c-60 20-90 70-90 130 0 50 30 80 70 80s66-28 66-80c0-60-6-100-46-130z"/>
+    <path d="M470 230c60 20 90 70 90 130 0 50-30 80-70 80s-66-28-66-80c0-60 6-100 46-130z"/>
+    <path d="M310 280c-20 16-34 40-38 66M490 280c20 16 34 40 38 66" stroke-width="2" opacity="0.6"/>
+  </g>
+  <g stroke="#9b1b30" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path d="M560 120c14-14 36-14 44 2 6 12-2 26-14 34l-30 22-30-22c-12-8-20-22-14-34 8-16 30-16 44-2z" opacity="0.9"/>
+  </g>
+</svg>
